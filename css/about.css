@@ -1,0 +1,401 @@
+.about-view header {
+  position: relative;
+}
+.about-view header .nav > li > a {
+  padding: 15px 12px;
+}
+.about-view header .main-navigation .login-btn {
+  margin-top: 16px;
+  margin-left: 10px;
+  margin-right: 15px;
+  padding: 0;
+  background: #29abe9;
+  border-color: #29abe9;
+  opacity: 0.95;
+  width: auto;
+  height: 28px;
+  padding: 0 28px;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  filter: alpha(opacity=95) progid:DXImageTransform.Microsoft.Alpha(opacity=95) progid:DXImageTransform.Microsoft.gradient(startColorstr="#29abe9", endColorstr="#E42954", GradientType=0);
+}
+.about-view header .color-overlay {
+  min-height: 400px;
+}
+.about-view header .landing-intro-section {
+  color: white;
+  margin-top: 154px;
+}
+.about-view header .landing-intro-section .intro {
+  font-family: "Proxima Nova Semibold";
+  font-size: 300%;
+  max-width: 400px;
+  text-transform: uppercase;
+  color: white;
+}
+.about-view header .landing-intro-section p {
+  font-family: "Proxima Nova Light";
+  font-size: 18px;
+  max-width: 700px;
+  line-height: 16px;
+  color: #FFFFFF;
+  color: white;
+}
+.about-view header .landing-intro-section .btn-sign-in {
+  color: #29abe9;
+  background: #FFFFFF;
+  background: white;
+  border-radius: 7px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.about-view header .landing-intro-section .other-login {
+  color: #ffffff;
+  opacity: 0.6;
+}
+.about-view header .landing-intro-section .buttons {
+  margin-top: 5px;
+  padding-bottom: 4px;
+}
+.about-view header .landing-intro-section .buttons .btn {
+  background: transparent;
+  font-size: 16px;
+  padding: 6px 0px;
+  min-width: 42px;
+  margin: 4px 0;
+}
+.about-view header .landing-intro-section .buttons .btn:hover {
+  background: #29abe9;
+  color: #fff;
+}
+.about-view header .landing-intro-section .buttons .btn i {
+  margin-right: 0px;
+  font-size: 24px;
+}
+.about-view header svg {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.about-view header svg .cls-1, .about-view header svg .cls-2, .about-view header svg .cls-3 {
+  fill: #fff;
+}
+.about-view header svg .cls-2 {
+  opacity: 0.37;
+}
+.about-view header svg .cls-3 {
+  opacity: 0.26;
+}
+.about-view header .container-svg {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+}
+.about-view .philosophy {
+  background-color: white;
+  min-height: 300px;
+}
+.about-view .philosophy .update-text {
+  font-size: 18px;
+  padding-top: 50px;
+}
+.about-view .philosophy h3, .about-view .philosophy .header {
+  font-family: "Proxima Nova Regular";
+  font-size: 38px;
+  color: #29abe9;
+  color: #29abe9;
+  padding-top: 50px;
+  text-align: left;
+}
+.about-view .philosophy h3.no-padding, .about-view .philosophy .header.no-padding {
+  padding-top: 10px;
+}
+.about-view .philosophy .text {
+  padding-top: 15px;
+  font-family: "Proxima Nova Light";
+  font-size: 21px;
+  line-height: 30px;
+  color: #8E8E8E;
+}
+.about-view .philosophy p, .about-view .philosophy ul {
+  padding-top: 15px;
+  font-family: "Proxima Nova Light";
+  font-size: 21px;
+  line-height: 30px;
+  color: #8E8E8E;
+  text-align: left;
+}
+.about-view .founders {
+  margin-top: 50px;
+}
+.about-view .founders h3, .about-view .founders .header {
+  font-family: "Proxima Nova Regular";
+  font-size: 38px;
+  color: #29abe9;
+  padding-top: 50px;
+  text-align: left;
+}
+.about-view .founders h4, .about-view .founders .sub-header {
+  font-family: "Proxima Nova Light";
+  padding-top: 15px;
+  font-size: 21px;
+  line-height: 30px;
+  color: #666666;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.about-view .founders .founder-profile {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 20px;
+}
+.about-view .founders .founder-profile .founder-image {
+  display: inline-block;
+  background: url(../images/image-border.svg);
+  background-size: contain;
+  height: 190px;
+  width: 190px;
+}
+.about-view .founders .founder-profile .founder-image.sameer {
+  background: url(../images/clients-pic/sameer.png);
+  background-size: contain;
+}
+.about-view .founders .founder-profile .founder-image.sameer:hover {
+  background: url(../images/clients-pic/sameerbw.png);
+  background-size: contain;
+  -webkit-transition: all 500ms ease-out;
+  -moz-transition: all 500ms ease-out;
+  -ms-transition: all 500ms ease-out;
+  -o-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+}
+.about-view .founders .founder-profile .founder-image.zohaib {
+  background: url(../images/clients-pic/zohaib.png);
+  background-size: contain;
+}
+.about-view .founders .founder-profile .founder-image.zohaib:hover {
+  background: url(../images/clients-pic/zohaibbw.png);
+  background-size: contain;
+  -webkit-transition: all 500ms ease-out;
+  -moz-transition: all 500ms ease-out;
+  -ms-transition: all 500ms ease-out;
+  -o-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+}
+.about-view .founders .founder-profile .founder-image.shakir {
+  background: url(../images/clients-pic/shakir.png);
+  background-size: contain;
+}
+.about-view .founders .founder-profile .founder-image.shakir:hover {
+  background: url(../images/clients-pic/shakirbw.png);
+  background-size: contain;
+  -webkit-transition: all 500ms ease-out;
+  -moz-transition: all 500ms ease-out;
+  -ms-transition: all 500ms ease-out;
+  -o-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+}
+.about-view .founders .founder-profile .social-icons-list {
+  margin-top: 8px;
+  width: 100%;
+  display: block;
+  margin-bottom: 8px;
+}
+.about-view .founders .founder-profile .social-icons-list li {
+  display: inline;
+  margin-right: 10px;
+  text-align: center;
+}
+.about-view .founders .founder-profile .social-icons-list li a {
+  color: #fff;
+  font-size: 16px;
+  height: 30px;
+  padding: 8px;
+  width: 30px;
+  outline: white;
+  background-color: #29abe9;
+  border-radius: 17px;
+}
+.about-view .founders .founder-profile .founder-description {
+  text-align: center;
+  font-family: "Proxima Nova Light";
+}
+.about-view .founders .founder-profile .founder-description .founder-name {
+  font-size: 29px;
+  line-height: 42.37px;
+  letter-spacing: -0.73px;
+  color: #29abe9;
+}
+.about-view .founders .founder-profile .founder-description .founder-title {
+  font-size: 26px;
+  line-height: 28.37px;
+  color: #aaaaaa;
+}
+.about-view .vision-improvement {
+  padding-top: 50px;
+  margin-bottom: 200px;
+  color: #8E8E8E;
+}
+.about-view .vision-improvement .title-vision {
+  font-size: 26px;
+  color: #666666;
+}
+.about-view .vision-improvement .text-vision {
+  font-family: "Proxima Nova Light";
+  font-size: 20px;
+  line-height: 30px;
+}
+.about-view .vision-improvement .title-improvement {
+  font-size: 26px;
+  color: #666666;
+}
+.about-view .vision-improvement .text-improvement {
+  font-family: "Proxima Nova Light";
+  font-size: 20px;
+  line-height: 30px;
+}
+.about-view footer .bottom-clients-section {
+  padding-bottom: 50px;
+}
+.about-view footer .bottom-clients-section .client-logo {
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.about-view footer .bottom-clients-section .client-logo-geo {
+  height: 50px;
+}
+.about-view footer .bottom-clients-section .client-logo-ajj {
+  height: 50px;
+}
+.about-view footer .bottom-clients-section .client-logo-dawn {
+  height: 50px;
+}
+.about-view footer .bottom-clients-section .client-logo-forbes {
+  height: 20px;
+}
+.about-view footer .bottom-clients-section .client-logo-times {
+  height: 20px;
+}
+.about-view footer .form-section-cont {
+  background-color: white;
+}
+.about-view footer .form-section-cont #send-message-success {
+  display: none;
+}
+.about-view footer .form-section-cont #send-message-error {
+  display: none;
+}
+.about-view footer .form-section-cont .contact-box {
+  background: #F2F2F2;
+  background: #f2f2f2;
+  box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.09);
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=8, Color="#000000");
+  padding: 10px;
+  padding-bottom: 30px;
+  z-index: 99;
+  margin-bottom: -170px;
+}
+.about-view footer .form-section-cont .contact-box .input-box {
+  height: 30px;
+  border: 1px solid #eaeaea;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.about-view footer .form-section-cont .contact-box .textarea-box {
+  border: 1px solid #eaeaea;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: 100px;
+}
+.about-view footer .bottom-section-cont {
+  display: block;
+  height: auto;
+  padding-top: 20px;
+  background-color: #EAEAEA;
+  position: relative;
+  width: 100%;
+}
+.about-view footer .bottom-section-cont .bottom-section {
+  position: relative;
+  bottom: 0;
+  vertical-align: bottom;
+  background-color: transparent;
+}
+.about-view footer .bottom-section-cont .bottom-section .bottom-content-logo {
+  text-align: left;
+}
+.about-view footer .bottom-section-cont .bottom-section .bottom-content-logo .bottom-logo {
+  height: 30px;
+  text-align: left;
+}
+.about-view footer .bottom-section-cont .bottom-section .bottom-content-logo .logo-text {
+  font-size: 14px;
+}
+.about-view footer .bottom-section-cont .bottom-section .bottom-content-address {
+  font-size: 14px;
+}
+.about-view footer .bottom-section-cont .bottom-section .bottom-content-social-links {
+  text-align: right;
+}
+.about-view footer .bottom-section-cont .bottom-section .bottom-content-social-links .android-app-link img {
+  width: 90px;
+  margin-bottom: 10px;
+}
+.about-view footer .bottom-section-cont .bottom-section .bottom-content-social-links .ios-app-link img {
+  width: 90px;
+  margin-bottom: 10px;
+}
+.about-view footer .bottom-section-cont .bottom-section .bottom-content-social-links .page-links {
+  width: 100%;
+  display: block;
+}
+.about-view footer .bottom-section-cont .bottom-section .bottom-content-social-links .page-links li {
+  display: inline;
+  margin-left: 20px;
+}
+.about-view footer .bottom-section-cont .bottom-section .bottom-content-social-links .social-icons-list {
+  width: 100%;
+  display: block;
+  margin-bottom: 0px;
+}
+.about-view footer .bottom-section-cont .bottom-section .bottom-content-social-links .social-icons-list li {
+  display: inline;
+  margin-left: 10px;
+  text-align: center;
+  line-height: 8;
+}
+.about-view footer .bottom-section-cont .bottom-section .bottom-content-social-links .social-icons-list li a {
+  color: white;
+  font-size: 16px;
+  height: 30px;
+  padding: 8px;
+  width: 30px;
+  background-color: grey;
+  border-radius: 17px;
+}
+
+.NL-small-text {
+  font-family: "Proxima Nova Regular";
+  font-size: 14px;
+  color: #000000;
+  color: #000000;
+  text-outline: #000000;
+  text-outline: #000000;
+  background-color: transparent;
+  display:block;
+  line-height:18px;
+}
+
+/*# sourceMappingURL=about.css.map */

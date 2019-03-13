@@ -1,0 +1,486 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:700");
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+.champ-btn {
+  background-color: #f7941e;
+  color: white;
+  border-color: #f7941e;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.close-btn {
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-size: 45px;
+}
+
+/* TEXT ALIGNS */
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .text-sm-left {
+    text-align: left !important;
+  }
+
+  .text-sm-right {
+    text-align: right !important;
+  }
+
+  .text-sm-center {
+    text-align: center !important;
+  }
+}
+@media (min-width: 992px) {
+  .text-md-left {
+    text-align: left !important;
+  }
+
+  .text-md-right {
+    text-align: right !important;
+  }
+
+  .text-md-center {
+    text-align: center !important;
+  }
+}
+@media (min-width: 1200px) {
+  .text-lg-left {
+    text-align: left !important;
+  }
+
+  .text-lg-right {
+    text-align: right !important;
+  }
+
+  .text-lg-center {
+    text-align: center !important;
+  }
+}
+/* FLOATS */
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-none {
+  float: none;
+}
+
+.clear-after::after {
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  .float-sm-left {
+    float: left;
+  }
+
+  .float-sm-right {
+    float: right;
+  }
+
+  .float-sm-none {
+    float: none;
+  }
+}
+@media (min-width: 992px) {
+  .float-md-left {
+    float: left;
+  }
+
+  .float-md-right {
+    float: right;
+  }
+
+  .float-md-none {
+    float: none;
+  }
+}
+@media (min-width: 1200px) {
+  .float-lg-left {
+    float: left;
+  }
+
+  .float-lg-right {
+    float: right;
+  }
+
+  .float-lg-none {
+    float: none;
+  }
+}
+/* FLEX BOX HELPERS */
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.flex-flow-column {
+  flex-flow: column wrap;
+}
+
+.flex-flow-row {
+  flex-flow: row wrap;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .d-block-sm {
+    display: block !important;
+  }
+
+  .justify-content-sm-start {
+    justify-content: flex-start !important;
+  }
+}
+@media (min-width: 768px) {
+  .d-flex-sm {
+    display: flex;
+  }
+
+  .flex-flow-column-sm {
+    flex-flow: column wrap;
+  }
+
+  .flex-flow-row-sm {
+    flex-flow: column wrap;
+  }
+}
+@media (min-width: 992px) {
+  .flex-flow-column-md {
+    flex-flow: column wrap;
+  }
+
+  .flex-flow-row-md {
+    flex-flow: column wrap;
+  }
+}
+@media (min-width: 1200px) {
+  .flex-flow-column-lg {
+    flex-flow: column wrap;
+  }
+
+  .flex-flow-row-lg {
+    flex-flow: column wrap;
+  }
+}
+/* CONSTANTS */
+.br-14px {
+  border-radius: 14px;
+}
+
+.pb-xs-50px {
+  padding-bottom: 50px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.m-0-auto {
+  margin: 0 auto !important;
+}
+
+.ml-5px {
+  margin-left: 5px !important;
+}
+
+.pt-30px {
+  padding-top: 30px;
+}
+
+.pt-10px {
+  padding-top: 10px;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .mb-sm-0 {
+    margin-bottom: 0;
+  }
+
+  .bg-sm-transparent {
+    background: transparent;
+  }
+
+  .pt-sm-35px {
+    padding-top: 35px !important;
+  }
+
+  .pt-sm-30px {
+    padding-top: 30px !important;
+  }
+}
+.modal {
+  text-align: center;
+}
+
+.d-none {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.modal-content {
+  border-radius: 14px;
+}
+
+.thankyou-popup .pt-30 {
+  padding: 30px 0;
+}
+.thankyou-popup .backdrop {
+  background-color: #ffffff;
+  background-image: url("../images/thankyou-backdrop.png");
+  background-size: cover;
+}
+.thankyou-popup .heading {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.thankyou-popup .message {
+  color: #fff;
+  font-size: 18px;
+}
+
+.landing-popup.modal .modal-dialog .modal-content .close-btn {
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-size: 45px;
+}
+
+.flashsaver-backdrop {
+  background-color: #ffffff;
+  background-image: url("../images/backdrop.png");
+  background-size: cover;
+}
+
+.countdown {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  margin-top: -30px;
+}
+@media (min-width: 768px) {
+  .countdown {
+    margin-top: -60px;
+    justify-content: space-between;
+  }
+}
+.countdown .bloc-time {
+  text-align: center;
+}
+.countdown .bloc-time:last-child {
+  margin-right: 0;
+}
+.countdown .figure {
+  position: relative;
+  float: left;
+  height: 50px;
+  width: 25px;
+  margin-right: 5px;
+  background-color: #fff;
+  border-radius: 8px;
+  -moz-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), inset 2px 4px 0 0 rgba(255, 255, 255, 0.08);
+  -webkit-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), inset 2px 4px 0 0 rgba(255, 255, 255, 0.08);
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), inset 2px 4px 0 0 rgba(255, 255, 255, 0.08);
+}
+@media (min-width: 768px) {
+  .countdown .figure {
+    height: 70px;
+    width: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .countdown .figure {
+    height: 85px;
+    width: 47px;
+    margin-right: 10px;
+  }
+}
+.countdown .figure:last-child {
+  margin-right: 0;
+}
+.countdown .figure > span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font: normal 30px "Oswald";
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  color: #424242;
+}
+@media (min-width: 768px) {
+  .countdown .figure > span {
+    font: normal 45px "Oswald";
+  }
+}
+@media (min-width: 992px) {
+  .countdown .figure > span {
+    font: normal 53px "Oswald";
+  }
+}
+.countdown .figure .top:after, .countdown .figure .bottom-back:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.countdown .figure .top {
+  z-index: 3;
+  background-color: #f0f0f0;
+  transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+  -moz-transform: perspective(200px);
+  -ms-transform: perspective(200px);
+  -webkit-transform: perspective(200px);
+  transform: perspective(200px);
+}
+.countdown .figure .bottom {
+  z-index: 1;
+}
+.countdown .figure .bottom:before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.02);
+}
+.countdown .figure .bottom-back {
+  z-index: 2;
+  top: 0;
+  height: 50%;
+  overflow: hidden;
+  background-color: #f7f7f7;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.countdown .figure .bottom-back span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.countdown .figure .top, .countdown .figure .top-back {
+  height: 50%;
+  overflow: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.countdown .figure .top-back {
+  z-index: 4;
+  bottom: 0;
+  background-color: #fff;
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -moz-transform: perspective(200px) rotateX(180deg);
+  -ms-transform: perspective(200px) rotateX(180deg);
+  -webkit-transform: perspective(200px) rotateX(180deg);
+  transform: perspective(200px) rotateX(180deg);
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.countdown .figure .top-back span {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.countdown .count-title {
+  display: block;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 10px;
+  font-weight: 700;
+}
+@media (min-width: 768px) {
+  .countdown .count-title {
+    font-size: 16px;
+    margin-top: 100px;
+    margin-bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=landing-popup.css.map */
